@@ -25,7 +25,7 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void twoNumbersAddCase() {
-        Assert.assertEquals(15,sc.add("8,7"));
+    public void moreNumbersAddCase() {
+        Assert.assertEquals(45,sc.add("8,7,10,20"));
     }
 }
