@@ -28,4 +28,9 @@ public class StringCalculatorTest {
     public void moreNumbersAddCase() {
         Assert.assertEquals(45,sc.add("8,7,10,20"));
     }
+
+    @Test
+    public void moreNumbersAddNewLineCase() {
+        Assert.assertEquals(6,sc.add("1\n2,3"));
+    }
 }

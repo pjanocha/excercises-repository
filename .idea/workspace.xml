@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b2833b-4447-4734-bb68-f9a7cc9868b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rekrutacja/Classes/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rekrutacja/Classes/StringCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rekrutacja/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rekrutacja/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rekrutacja/Tests/StringCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rekrutacja/Tests/StringCalculatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/StringCalculatorTest.java" afterDir="false" />
@@ -41,28 +37,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1303" />
+          <entry key="java" value="1390" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1303" />
+          <entry key="JAVA" value="1390" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -74,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="289">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#199#200#0" expanded="true" />
@@ -86,6 +82,8 @@
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +169,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561806858879" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561808488869" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -238,14 +236,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCalculatorTest.moreNumbersAddNewLineCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rekrutacja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="moreNumbersAddNewLineCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.StringCalculatorTest" />
       <item itemvalue="JUnit.StringCalculatorTest.moreNumbersAddCase" />
+      <item itemvalue="JUnit.StringCalculatorTest.moreNumbersAddNewLineCase" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StringCalculatorTest.moreNumbersAddNewLineCase" />
         <item itemvalue="JUnit.StringCalculatorTest" />
         <item itemvalue="JUnit.StringCalculatorTest.moreNumbersAddCase" />
       </list>
@@ -261,7 +277,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561739787508</updated>
-      <workItem from="1561739794774" duration="21014000" />
+      <workItem from="1561739794774" duration="22582000" />
     </task>
     <servers />
   </component>
@@ -281,12 +297,19 @@
     <history-entry file="StringCalculatorTest - 2019.06.29 at 12h 47m 13s.xml">
       <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.06.29 at 13h 36m 17s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_moreNumbersAddNewLineCase - 2019.06.29 at 13h 38m 31s.xml">
+      <configuration name="StringCalculatorTest.moreNumbersAddNewLineCase" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21014000" />
+    <option name="totallyTimeSpent" value="22582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -298,11 +321,11 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
@@ -346,14 +369,9 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -361,6 +379,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
