@@ -49,4 +49,9 @@ public class StringCalculatorTest {
            Assert.assertEquals("negatives not allowed | [-4]", exception.getMessage());
         }
     }
+
+    @Test
+    public void shouldIgnoreAddingBigNumbers() {
+        Assert.assertEquals(6,sc.add("1,2,3\n1024"));
+    }
 }

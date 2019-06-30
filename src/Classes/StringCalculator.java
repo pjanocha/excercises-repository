@@ -26,6 +26,7 @@ public class StringCalculator {
                     .filter(number -> number.length() > 0) // if string is empty, a sum will be default value- 0
                     .filter(number -> number.matches("[0-9]*")) // to map string to int we need a number
                     .mapToInt(number -> Integer.parseInt(number))
+                    .filter(number ->number<=1000)
                     .sum();
 
         }
