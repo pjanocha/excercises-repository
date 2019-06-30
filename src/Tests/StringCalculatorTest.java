@@ -38,4 +38,15 @@ public class StringCalculatorTest {
     public void differentDelimitersCase() {
         Assert.assertEquals(3,sc.add("//;\n1;2"));
     }
+
+    @Test
+    public void shouldHaveProperErrorMessage() {
+        try {
+            sc.add("//;\n1,2\n3;-4");
+           Assert.fail("Exception wasn't thrown!");
+        }
+        catch (IllegalArgumentException exception) {
+           Assert.assertEquals("negatives not allowed | [-4]", exception.getMessage());
+        }
+    }
 }
