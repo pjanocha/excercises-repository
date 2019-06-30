@@ -64,4 +64,9 @@ public class StringCalculatorTest {
         Assert.assertEquals(6,sc.add("//[*][%]\n1*2%3"));
     }
 
+    @Test
+    public void moreOwnLongerDelimitersCase() {
+        Assert.assertEquals(6,sc.add("//[***][^^^]\n1***2^^^3"));
+    }
+
 }
