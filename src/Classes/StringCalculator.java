@@ -12,7 +12,7 @@ public class StringCalculator {
         if(numbers.startsWith("//")) { //if we want to add our delimiter
             delimiter = numbers.substring(2,numbers.indexOf("\n"));
             if(delimiter.length()>1){
-                delimiter=delimiter.substring(1,delimiter.length()-1);
+              delimiter=delimiter.replace('[',',').replace(']',',');
             }
 
         }
