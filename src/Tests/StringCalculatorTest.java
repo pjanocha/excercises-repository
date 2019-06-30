@@ -54,4 +54,9 @@ public class StringCalculatorTest {
     public void shouldIgnoreAddingBigNumbers() {
         Assert.assertEquals(6,sc.add("1,2,3\n1024"));
     }
+    @Test
+    public void longerDelimitersCase() {
+        Assert.assertEquals(6,sc.add("//[***]\n1***2***3"));
+    }
+
 }
