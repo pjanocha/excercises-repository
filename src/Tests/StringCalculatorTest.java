@@ -33,4 +33,9 @@ public class StringCalculatorTest {
     public void moreNumbersAddNewLineCase() {
         Assert.assertEquals(6,sc.add("1\n2,3"));
     }
+
+    @Test
+    public void differentDelimitersCase() {
+        Assert.assertEquals(3,sc.add("//;\n1;2"));
+    }
 }

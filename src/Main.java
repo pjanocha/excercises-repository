@@ -2,12 +2,12 @@ import Classes.StringCalculator;
 
 public class Main {
 
-// THIRD EXCERCISE
+// FOURTH EXCERCISE
 
     public static void main(String[] args) {
 
         StringCalculator sc=new StringCalculator();
-        System.out.println( sc.add("1\n1,1"));
+        System.out.println( sc.add("//;\n1\n1;1,1"));
 
     }
 }
